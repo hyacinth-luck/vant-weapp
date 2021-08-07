@@ -1,6 +1,7 @@
 const path = require('path');
 const { dev } = require('@vant/cli');
 const { exec } = require('child_process');
+console.log('dev')
 
 const gulpConfig = path.resolve(__dirname, './compiler.js');
 
